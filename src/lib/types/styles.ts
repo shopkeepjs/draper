@@ -1,4 +1,9 @@
+export type SizeMaxMed = 'sm' | 'md';
+export type SizeMaxLarge = SizeMaxMed | 'lg';
+export type SizeMaxXLarge = SizeMaxLarge | 'xl';
+
 export type Styles = {
+	appearance?: string;
 	flexFlow?: string;
 	gap?: string | number;
 	alignItems?: string;
@@ -182,5 +187,3 @@ export type Styles = {
 	background?: string;
 	border?: string;
 };
-
-export type Sizes = 'sm' | 'small' | 'md' | 'medium' | 'lg' | 'large';

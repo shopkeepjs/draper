@@ -1,3 +1,18 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+	import Flexbox from '$lib/components/Flexbox/Flexbox.svelte';
+	import Switch from '$lib/components/Switch/Switch.svelte';
+	import GlobalStyles from '$lib/components/GlobalStyles/GlobalStyles.svelte';
+	import Text from '$lib/components/Text/Text.svelte';
+
+	const checkChecked = (checked: boolean) => console.log(checked);
+</script>
+
+<GlobalStyles>
+	<Flexbox cs={{ flexFlow: 'column' }}>
+		<Switch size="sm" onChange={checkChecked}>
+			<Text cs={{ color: 'green' }}>Hi</Text>
+		</Switch>
+		<Switch label="This is medium" size="sm" onChange={checkChecked} />
+		<Switch label="Hi" accentColor={'#1d74c1'} onChange={checkChecked} />
+	</Flexbox>
+</GlobalStyles>

@@ -1,58 +1,102 @@
-# create-svelte
+# Draper
 
-Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+ShopkeepJS Draper is a Svelte-based component library designed to provide a set of reusable UI components. This project uses SvelteKit, Vite, and Storybook for development and testing.
 
-Read more about creating a library [in the docs](https://svelte.dev/docs/kit/packaging).
+## Project Structure
 
-## Creating a project
+### Key Directories and Files
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **.storybook/**: Configuration for Storybook.
+- **.svelte-kit/**: SvelteKit generated files.
+- **cli/**: Command-line interface tools for generating new components.
+- **src/**: Source code for the project.
+  - **lib/**: Contains the main library components.
+  - **routes/**: SvelteKit routes.
+  - **types/**: TypeScript types.
+- **static/**: Static assets.
+- **svelte.config.js**: Svelte configuration file.
+- **tsconfig.json**: TypeScript configuration file.
+- **vite.config.ts**: Vite configuration file.
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Getting Started
 
-# create a new project in my-app
-npx sv create my-app
-```
+### Prerequisites
 
-## Developing
+- Node.js (v16 or higher)
+- npm (v7 or higher)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Features
 
-```bash
-npm run dev
+- **Svelte Native Components**: Designed specifically for SvelteKit projects, enabling seamless integration and efficient development.
+- **Highly Customizable**: All components are highly customizable to fit your design requirements.
+- **Accessibility Focused**: Built with accessibility (a11y) best practices to ensure an inclusive experience for all users.
+- **Responsive**: All components are mobile-first and fully responsive, adapting perfectly to different screen sizes.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Installation
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
-
-## Building
-
-To build your library:
-
-```bash
-npm run package
-```
-
-To create a production version of your showcase app:
+To get started with the library, install it via npm or yarn:
 
 ```bash
-npm run build
+npm install @shopkeepjs/draper
 ```
 
-You can preview the production build with `npm run preview`.
+## Usage
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+To use a component from the library, simply import it into your Svelte file:
 
-## Publishing
+```svelte
+<script>
+  import { Wrap } from '@shopkeepjs/draper';
+</script>
 
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
-
-To publish your library to [npm](https://www.npmjs.com):
-
-```bash
-npm publish
+<Wrap>Hi I'm wrapped!</Wrap>
 ```
+
+## Available Components
+
+The library includes a variety of components to help you build your application. Here are some of the components available:
+
+- **Wrap**: A simple wrapper component.
+- **Flexbox**: A simple wrapper component that is automatically flexboxed.
+- **Text**: A wrapper for your text elements.
+
+## Documentation
+
+-- 
+
+## Development
+
+To contribute or run the library locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/shopkeepjs/draper.git
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## Contributing
+
+Contributions are welcome! Please see the [contributing guide](CONTRIBUTING.md) for more information on how to contribute to this project.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Support
+
+If you have any questions or issues, feel free to open an issue on [GitHub](https://github.com/your-namespace/your-library-name/issues) or reach out to us at [support@your-email.com](mailto:support@your-email.com).
+
+---
+

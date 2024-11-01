@@ -1,0 +1,60 @@
+## Components that need to be built
+
+- **Accordion**
+- **Alert**: A small banner embedded inside a component that can be used for alerts, confirmations, etc.
+- **Avatar**
+- **Banner**: A sitewide notification that can be used for alerts, confirmations, etc.
+- **Blockquote**: A blockquote element that has a quote and a citation/attribution.
+- **Breadcrumb**
+- **Button**: Should only be an action button
+- **ButtonMenu**: A button that opens a dropdown of similar buttons.
+- **Calendar**
+- **Card**
+- **Carousel**
+- **Chart**
+- **Checkbox**: Also includes "hidden" checkbox styles where you don't see the box, only the text but a checkmark appears on selection.
+- **CommandMenu**
+- **Datepicker**
+- **Dialog**: A modal dialog that can be used for user interactions
+- **Divider**
+- **Drawer**: A dialog that appears from and is anchored to the bottom or right side of the screen and can be used for user interactions.
+- **EmptyState**
+- **FileUpload**
+- **Form**
+- **Grid**
+- **GlobalStyles**
+- **Heading**
+- **Icon**
+- **Image**
+- **Input**: Should also include a specialized input - a text field that also has a button or dropdown to enhance the input (perhaps with an action, or a selector to specify denomination).
+- **Label**
+- **Link**: Should include different designs, like a button, a text link, etc. Also include hidden link styles and new window notification icon on hover.
+- **List**: Can be bulleted, iconed, or numbered.
+- **NumberCounter**
+- **OneTimePassword**: A series of numbers that are used for authentication. Should include paste functionality.
+- **Pagination**
+- **Popover**
+- **Progress**: A progress or stepper bar that can be used to show progress on a task.
+- **Radio**
+- **Rating**
+- **RichTextEditor**
+- **ScopedStyles**
+- **Select**
+- **Sidepanel**: use starting style in css to maybe to help with this?
+- **Skeleton**
+- **Slider**
+- **Spinner**
+- **Stack**: A simple wrapper component that is automatically stacked.
+- **SuggestSelect**: A dropdown with an input and autocomplete suggestions. (use the html <datalist> for this?)
+- **Table**
+- **Tabs**
+- **Tag**
+- **TextArea**: Us field-sizing: content-box; to make the textarea the same size as the input.
+- **TimePicker**
+- **ToggleIcon**
+- **Toast**
+- **Tooltip**: Both simple and advanced tooltips?
+- **Video**
+- **VisuallyHidden**
+
+
