@@ -22,12 +22,9 @@
 - **FileUpload**
 - **Form**
 - **Grid**
-- **GlobalStyles**
 - **Heading**
-- **Icon**
 - **Image**
-- **Input**: Should also include a specialized input - a text field that also has a button or dropdown to enhance the input (perhaps with an action, or a selector to specify denomination).
-- **Label**
+- **Input**: Should also include a specialized input - a text field that also has a button or dropdown directly to the right of it to enhance the input (perhaps with an action, or a selector to specify denomination). i.e. (wage) /yr or /hr
 - **Link**: Should include different designs, like a button, a text link, etc. Also include hidden link styles and new window notification icon on hover.
 - **List**: Can be bulleted, iconed, or numbered.
 - **NumberCounter**

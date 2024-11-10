@@ -4,7 +4,7 @@
 	import GlobalStyles from '$lib/components/GlobalStyles/GlobalStyles.svelte';
 	import Text from '$lib/components/Text/Text.svelte';
 
-	const checkChecked = (checked: boolean) => console.log(checked);
+	const checkChecked = (checked: boolean, index?: number) => console.log(checked, index);
 </script>
 
 <GlobalStyles>

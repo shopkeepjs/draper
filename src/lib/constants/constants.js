@@ -1,1 +1,1 @@
-export const elementNames = ['Box', 'Flexbox', 'Text', 'Input', 'Label', 'Switch', 'GlobalStyles'];
+export const elementNames = ['Wrap', 'Flexbox', 'Text', 'Input', 'Label', 'Switch', 'GlobalStyles', 'Icon'];
