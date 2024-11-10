@@ -1,6 +1,6 @@
-# Draper
+# Tailor
 
-ShopkeepJS Draper is a Svelte-based component library designed to provide a set of reusable UI components. This project uses SvelteKit, Vite, and Storybook for development and testing.
+ShopkeepJS Tailor is a Svelte-based component library designed to provide a set of reusable UI components. This project uses SvelteKit, Vite, and Storybook for development and testing.
 
 ## Project Structure
 
@@ -8,7 +8,6 @@ ShopkeepJS Draper is a Svelte-based component library designed to provide a set 
 
 - **.storybook/**: Configuration for Storybook.
 - **.svelte-kit/**: SvelteKit generated files.
-- **cli/**: Command-line interface tools for generating new components.
 - **src/**: Source code for the project.
   - **lib/**: Contains the main library components.
   - **routes/**: SvelteKit routes.
@@ -37,7 +36,7 @@ ShopkeepJS Draper is a Svelte-based component library designed to provide a set 
 To get started with the library, install it via npm or yarn:
 
 ```bash
-npm install @shopkeepjs/draper
+npm install @shopkeepjs/tailor
 ```
 
 ## Usage
@@ -46,7 +45,7 @@ To use a component from the library, simply import it into your Svelte file:
 
 ```svelte
 <script>
-  import { Wrap } from '@shopkeepjs/draper';
+  import { Wrap } from '@shopkeepjs/tailor';
 </script>
 
 <Wrap>Hi I'm wrapped!</Wrap>
@@ -71,7 +70,7 @@ To contribute or run the library locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/shopkeepjs/draper.git
+   git clone https://github.com/shopkeepjs/tailor.git
    ```
 
 2. Install dependencies:
